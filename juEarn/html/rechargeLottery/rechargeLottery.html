@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>抽奖页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./rechargeLottery.css" type="text/css" />
+    <script type="text/javascript" src="../lib/jquery-3.3.1.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script type="text/javascript" src="../lib/require.js"></script>
+    <script type="text/javascript" src="./rechargeLottery.js"></script>
+</head>
+
+<body ontouchstart="">
+    <div id="pop-container" class="fixed-full v-end-content pop-bg">
+        <div id="jinbiEff" class="jinbi-eff">
+            <img v-for='(value,key,index) in jinbiEff' v-bind:src="value" v-bind:style="{height:curIdx==key?'620px':'0px'}"></img>
+        </div>
+        <div id="popContent" class="v-end-content">
+
+            <div class="multiple-sele-container select-font">
+                <div class="activity" v-bind:class="{'multiple-select':info.multiple==1,'multiple-noselect':info.multiple!=1}" v-on:click='clickSeleMultiple(1)'>
+                    <font class="select-font">1倍</font>
+                </div>
+                <div style="height: 20px;"></div>
+                <div class="activity" v-bind:class="{'multiple-select':info.multiple==10,'multiple-noselect':info.multiple!=10}" v-on:click='clickSeleMultiple(10)'>
+                    <font class="select-font">10倍</font>
+                </div>
+                <div style="height: 20px;"></div>
+                <div class="activity" v-bind:class="{'multiple-select':info.multiple==100,'multiple-noselect':info.multiple!=100}" v-on:click='clickSeleMultiple(100)'>
+                    <font class="select-font">100倍</font>
+                </div>
+            </div>
+            <div v-if='show' class="close-btn activity" v-on:click="closePop"></div>
+            <div v-if='show' class="pop-conten-dir">
+                <font class="font-red1">{{"首次抢金币送您"+info.first_recharge+"金币"}}</font>
+                <div style="height: 24px;"></div>
+                <font class="font-red1">祝您玩的愉快！</font>
+            </div>
+            <div v-else class="lucky-indicate"></div>
+            <div class="activity click-pop-indicate" onclick="clickIndicate()"></div>
+            <div class="pop-indicate"></div>
+            <div id="rotation-div" class="pop-rotation" v-bind:style="{backgroundImage:'url(' + rotationBackBg[info.multiple] + ')'}">
+                <div>
+                    <template v-for="(value, key, index) in info.play_list" :key='item.index'>
+                        <div v-if='key==0' class='rotation-item' style="margin-left: -42px;margin-top: -232px;">
+                            <img :src="value.img" style="width: 84px;height: 84px;"></img>
+                        </div>
+                        <div v-else-if='key==1' class='rotation-item' style='transform:rotate(60deg);margin-left: 122px;margin-top: -139px;'>
+                            <img :src="value.img" style="width: 84px;height: 84px;"></img>
+                        </div>
+                        <div v-else-if='key==2' class='rotation-item' style='transform:rotate(120deg);margin-left: 122px;margin-top: 52px;'>
+                            <img :src="value.img" style="width: 84px;height: 84px;"></img>
+                        </div>
+                        <div v-else-if='key==3' class='rotation-item' style='transform:rotate(180deg);margin-left: -42px;margin-top: 148px;'>
+                            <img :src="value.img" style="width: 84px;height: 84px;"></img>
+                        </div>
+                        <div v-else-if='key==4' class='rotation-item' style='transform:rotate(240deg);margin-left: -208px;margin-top: 52px;'>
+                            <img :src="value.img" style="width: 84px;height: 84px;"></img>
+                        </div>
+                        <div v-else-if='key==5' class='rotation-item' style='transform:rotate(240deg);margin-left: -208px;margin-top: -139px;'>
+                            <img :src="value.img" style="width: 84px;height: 84px;"></img>
+                        </div>
+
+                        <div v-if='key==0' class="cost-item font-white1" style="margin-left: -60px;margin-top: -290px;">
+                            {{value.value*info.multiple}}
+                        </div>
+                        <div v-if='key==1' class="cost-item font-black1" style="transform:rotate(60deg);margin-left: 174px;margin-top: -156px;">
+                            {{value.value*info.multiple}}
+                        </div>
+                        <div v-if='key==2' class="cost-item font-white1" style="transform:rotate(120deg);margin-left: 174px;margin-top: 116px;">
+                            {{value.value*info.multiple}}
+                        </div>
+                        <div v-if='key==3' class="cost-item font-black1" style="transform:rotate(180deg);margin-left: -60px;margin-top: 250px;">
+                            {{value.value*info.multiple}}
+                        </div>
+                        <div v-if='key==4' class="cost-item font-white1" style="transform:rotate(240deg);margin-left: -294px;margin-top: 116px;">
+                            </font>{{value.value*info.multiple}}
+                        </div>
+                        <div v-if='key==5' class="cost-item font-black1" style="transform:rotate(300deg);margin-left: -294px;margin-top: -156px;">
+                            {{value.value*info.multiple}}
+                        </div>
+                    </template>
+                </div>
+            </div>
+            <div class="pop-base">
+                <div class="pop-cost cost-font">
+                    {{"每次消耗"+(100*info.multiple)+"金币"}}
+                </div>
+            </div>
+            <div style="height:100px;"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

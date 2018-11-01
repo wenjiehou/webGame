@@ -1,0 +1,236 @@
+.font-white1{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.font-black1{
+    color: #714328;
+    font-size: 40px;
+}
+
+.font-red1{
+    color: #302011;
+    font-size: 45px;
+}
+
+div.fixed-full{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 100%;
+}
+
+div.pop-bg{
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/newer/qiandao_bk.png") no-repeat;
+    background-size: 100%;
+}
+
+div.v-end-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.pop-base{
+    width: 882px;
+    height: 801px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/zhuanpan_di.png");
+    background-size: 100%;
+    margin-bottom: -138rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.pop-rotation {
+    width: 609px;
+    height: 609px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/zhuanpan1.png");
+    background-size: 100%;
+    z-index: 0;
+    margin-bottom: -670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(-60deg); */
+}
+
+div.rotation-item {
+display: flex;
+position: absolute;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+div.cost-item{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+}
+
+div.pop-indicate{
+    width: 215px;
+    height: 252px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/dianji_button.png");
+    background-size: 100%;
+    z-index: 1;
+    margin-bottom: -412px;
+}
+
+.click-pop-indicate{
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    z-index: 2;
+    margin-bottom: -250px;
+}
+
+.activity:active{
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 1;
+}
+
+div.pop-conten-dir{
+    width: 624px;
+    height: 366px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/tanchuang_di.png");
+    background-size: 100%;
+    margin-bottom: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.close-btn{
+    width: 60px;
+    height: 60px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/closed_button.png");
+    background-size: 100%;
+    margin-left: 600px;
+    border-radius: 50%;
+
+}
+
+div.multiple-sele-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 160px;
+    right: 20px;
+}
+
+div.multiple-select{
+    width: 147px;
+    height: 73px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/fanbei_button_down.png");
+    background-size: 100%;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.multiple-noselect{
+    width: 147px;
+    height: 73px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/fanbei_button.png");
+    background-size: 100%;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.lucky-indicate{
+    width: 614px;
+    height: 123px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/title_zhuanpan.png");
+    background-size: 100%;
+    margin-bottom: 400px;
+
+
+}
+
+div.jinbi-eff{
+    position: absolute;
+    z-index: 10;
+    bottom: 700px;
+}
+
+/* div.multiple-sele{
+    width: 107px;
+    height: 52px;
+    position: absolute;
+    bottom: 52px;
+    left: 590px;
+
+}
+
+select{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/fanbei_button.png") no-repeat center;
+    text-align:center;
+    text-align-last:center;
+    font-size: 30px;
+    color: white;
+} */
+/* div:after{
+    content: "";
+    width: 14px;
+    height: 8px;
+    background: url("http://ju.cdn.giantfun.cn/juEarnWeb/lottery/fanbei_button.png") no-repeat center;
+    position: absolute;
+    right: 20px; 302011
+    top: 45%;
+    pointer-events: none;
+} */
+
+.select-font{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.pop-cost{
+    width: fit-content;
+    height: 50px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cost-font{
+    color: white;
+    font-size: 35px;
+}
+
+
+
+
+
+

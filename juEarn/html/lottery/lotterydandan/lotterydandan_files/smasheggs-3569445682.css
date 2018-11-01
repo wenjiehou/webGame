@@ -1,0 +1,290 @@
+@-webkit-keyframes hammerDown {
+    0% {
+        -webkit-transform: rotateZ(0deg) scale(1.2);
+        transform: rotateZ(0deg) scale(1.2)
+    }
+
+    90% {
+        -webkit-transform: rotateZ(45deg) scale(1.2);
+        transform: rotateZ(45deg) scale(1.2)
+    }
+
+    to {
+        -webkit-transform: rotateZ(-10deg) scale(1.2);
+        transform: rotateZ(-10deg) scale(1.2)
+    }
+}
+
+@keyframes hammerDown {
+    0% {
+        -webkit-transform: rotateZ(0deg) scale(1.2);
+        transform: rotateZ(0deg) scale(1.2)
+    }
+
+    90% {
+        -webkit-transform: rotateZ(45deg) scale(1.2);
+        transform: rotateZ(45deg) scale(1.2)
+    }
+
+    to {
+        -webkit-transform: rotateZ(-10deg) scale(1.2);
+        transform: rotateZ(-10deg) scale(1.2)
+    }
+}
+
+@-webkit-keyframes eggJump {
+    0%,32%,60%,84%,96%,to {
+        top: 0
+    }
+
+    16% {
+        top: -.6rem
+    }
+
+    48% {
+        top: -.4rem
+    }
+
+    72% {
+        top: -.2rem
+    }
+}
+
+@keyframes eggJump {
+    0%,32%,60%,84%,96%,to {
+        top: 0
+    }
+
+    16% {
+        top: -.6rem
+    }
+
+    48% {
+        top: -.4rem
+    }
+
+    72% {
+        top: -.2rem
+    }
+}
+
+@-webkit-keyframes eggSwing {
+    0%,to {
+        -webkit-transform: rotateZ(-15deg);
+        transform: rotateZ(-15deg)
+    }
+
+    50% {
+        -webkit-transform: rotateZ(15deg);
+        transform: rotateZ(15deg)
+    }
+}
+
+@keyframes eggSwing {
+    0%,to {
+        -webkit-transform: rotateZ(-15deg);
+        transform: rotateZ(-15deg)
+    }
+
+    50% {
+        -webkit-transform: rotateZ(15deg);
+        transform: rotateZ(15deg)
+    }
+}
+
+body,html {
+    height: 100%
+}
+
+.abCenter,.main .awardWrap,.main .awardWrap .awardDiv .award .img,.main .awardWrap .awardDiv .award .tit,.main .bg,.main .eggsWrap,.main .eggsWrap .egg .egg0,.main .eggsWrap .egg .egg1,.main .eggsWrap .egg .egg2,.main .eggsWrap .egg .hammer1,.main .eggsWrap .egg .hammer2,.main .hammerWrap .hammer1,.main .hammerWrap .hammer2,.main .leftTip {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%)
+}
+
+.main {
+    width: 7.5rem;
+    height: 100%;
+    min-height: 14.2rem;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative
+}
+
+.main .bg {
+    width: 100%;
+    height: 14.2rem
+}
+
+.main .myGiftBtn,.main .ruleBtn {
+    position: absolute;
+    z-index: 10;
+    height: 1.3rem;
+    width: .9rem;
+    top: 0
+}
+
+.main .ruleBtn {
+    left: 0
+}
+
+.main .myGiftBtn {
+    right: 0
+}
+
+.main .leftTip {
+    top: 2.61rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid .02rem #3ea2ff;
+    width: 1.97rem;
+    height: .36rem;
+    border-radius: .18rem;
+    font-size: .22rem;
+    color: #0f7bb7;
+    line-height: .35rem;
+    text-align: center
+}
+
+.main .eggsWrap {
+    top: 3.35rem;
+    width: 6.3rem;
+    height: 7.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.main .eggsWrap .egg {
+    width: 2rem;
+    height: 2.2rem;
+    position: relative
+}
+
+.main .eggsWrap .egg .egg0,.main .eggsWrap .egg .egg1,.main .eggsWrap .egg .egg2 {
+    width: 100%;
+    height: 100%
+}
+
+.main .eggsWrap .egg .egg0,.main .eggsWrap .egg .egg2 {
+    display: none
+}
+
+.main .eggsWrap .egg .gray {
+    -webkit-filter: grayscale(.3);
+    filter: grayscale(.3)
+}
+
+.main .eggsWrap .egg .hammer1,.main .eggsWrap .egg .hammer2 {
+    width: 1.11rem;
+    height: 1.11rem;
+    display: none;
+    -webkit-transform: rotateZ(0deg) scale(1.2);
+    transform: rotateZ(0deg) scale(1.2)
+}
+
+.main .eggsWrap .egg .down.hammer2,.main .eggsWrap .egg .hammer1.down {
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-animation: hammerDown .3s linear forwards;
+    animation: hammerDown .3s linear forwards
+}
+
+.main .eggsWrap .egg.jump {
+    -webkit-animation: eggJump .3s linear;
+    animation: eggJump .3s linear
+}
+
+.main .eggsWrap .egg.swing {
+    -webkit-animation: eggSwing .2s linear infinite;
+    animation: eggSwing .2s linear infinite
+}
+
+.main .hammerWrap {
+    position: absolute;
+    top: 2rem;
+    left: 6.25rem;
+    width: 1.11rem;
+    height: 1.11rem
+}
+
+.main .eggsWrap .egg .hammerWrap .hammer2,.main .hammerWrap .eggsWrap .egg .hammer2,.main .hammerWrap .hammer1 {
+    width: 100%;
+    height: 100%
+}
+
+.main .hammerWrap .hammer2 {
+    top: .1rem;
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+.main .awardWrap {
+    top: 11.76rem;
+    width: 7.5rem;
+    height: 2.1rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .3rem;
+    overflow-x: auto;
+    overflow-y: hidden
+}
+
+.main .awardWrap .awardDiv {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: 1.83rem
+}
+
+.main .awardWrap .awardDiv .award {
+    width: 1.5rem;
+    height: 1.83rem;
+    float: left;
+    margin-left: .1rem;
+    position: relative
+}
+
+.main .awardWrap .awardDiv .award:nth-child(1) {
+    margin-left: 0
+}
+
+.main .awardWrap .awardDiv .award .img {
+    top: .25rem;
+    width: 1rem;
+    height: 1rem;
+    -webkit-box-shadow: 0 0 0 .25rem #fff;
+    box-shadow: 0 0 0 .25rem #fff;
+    background: #fff
+}
+
+.main .awardWrap .awardDiv .award .tit {
+    width: 100%;
+    height: .22rem;
+    top: 1.61rem;
+    font-size: .22rem;
+    color: #fff;
+    overflow: hidden;
+    text-align: center
+}
+
+.main .awardCorner {
+    position: absolute;
+    top: 11.45rem;
+    left: 0;
+    width: 1.32rem;
+    height: .76rem
+}
+
+.main .ios-notice {
+    margin: 13.8rem 0 0
+}

@@ -1,0 +1,1739 @@
+@charset "UTF-8";@-webkit-keyframes showClose {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes showClose {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes showRedpacks {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    90% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes showRedpacks {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    90% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes showCoupon {
+    0% {
+        top: 4.56rem
+    }
+
+    to {
+        top: 2.66rem
+    }
+}
+
+@keyframes showCoupon {
+    0% {
+        top: 4.56rem
+    }
+
+    to {
+        top: 2.66rem
+    }
+}
+
+@-webkit-keyframes btnClick {
+    0%,to {
+        background-position: 0 -5.11rem;
+        width: 1.73rem;
+        height: 1.76rem;
+        left: 2.11rem;
+        top: .47rem
+    }
+
+    50% {
+        width: 1.91rem;
+        height: 1.94rem;
+        left: 2.02rem;
+        top: .38rem;
+        background-position: -1.95rem -5.11rem
+    }
+}
+
+@keyframes btnClick {
+    0%,to {
+        background-position: 0 -5.11rem;
+        width: 1.73rem;
+        height: 1.76rem;
+        left: 2.11rem;
+        top: .47rem
+    }
+
+    50% {
+        width: 1.91rem;
+        height: 1.94rem;
+        left: 2.02rem;
+        top: .38rem;
+        background-position: -1.95rem -5.11rem
+    }
+}
+
+@-webkit-keyframes lightRound {
+    0% {
+        -webkit-transform: translate(-50%) rotate(0);
+        transform: translate(-50%) rotate(0);
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: translate(-50%) rotate(360deg);
+        transform: translate(-50%) rotate(360deg);
+        opacity: 1
+    }
+}
+
+@keyframes lightRound {
+    0% {
+        -webkit-transform: translate(-50%) rotate(0);
+        transform: translate(-50%) rotate(0);
+        opacity: 1
+    }
+
+    to {
+        -webkit-transform: translate(-50%) rotate(360deg);
+        transform: translate(-50%) rotate(360deg);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes showModal {
+    0% {
+        -webkit-transform: scale(.1);
+        transform: scale(.1)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes showModal {
+    0% {
+        -webkit-transform: scale(.1);
+        transform: scale(.1)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes showModalNew {
+    0% {
+        -webkit-transform: translate(-50%) scale(.1);
+        transform: translate(-50%) scale(.1)
+    }
+
+    to {
+        -webkit-transform: translate(-50%) scale(1);
+        transform: translate(-50%) scale(1)
+    }
+}
+
+@keyframes showModalNew {
+    0% {
+        -webkit-transform: translate(-50%) scale(.1);
+        transform: translate(-50%) scale(.1)
+    }
+
+    to {
+        -webkit-transform: translate(-50%) scale(1);
+        transform: translate(-50%) scale(1)
+    }
+}
+
+@-webkit-keyframes showPopup {
+    0% {
+        -webkit-transform: translate(-50%) scale(.1);
+        transform: translate(-50%) scale(.1)
+    }
+
+    to {
+        -webkit-transform: translate(-50%) scale(1);
+        transform: translate(-50%) scale(1)
+    }
+}
+
+@keyframes showPopup {
+    0% {
+        -webkit-transform: translate(-50%) scale(.1);
+        transform: translate(-50%) scale(.1)
+    }
+
+    to {
+        -webkit-transform: translate(-50%) scale(1);
+        transform: translate(-50%) scale(1)
+    }
+}
+
+@-webkit-keyframes commonHandClick {
+    0%,to {
+        background-position: -1.52rem 0
+    }
+
+    50% {
+        background-position: .18rem 0
+    }
+}
+
+@keyframes commonHandClick {
+    0%,to {
+        background-position: -1.52rem 0
+    }
+
+    50% {
+        background-position: .18rem 0
+    }
+}
+
+@-webkit-keyframes showcloseHide {
+    0%,to {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+}
+
+@keyframes showcloseHide {
+    0%,to {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+}
+
+@-webkit-keyframes showStarOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes showStarOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes showSmallredpack {
+    0% {
+        -webkit-transform: translateY(0) scale(.21);
+        transform: translateY(0) scale(.21)
+    }
+
+    to {
+        -webkit-transform: translateY(-4rem) scale(.9);
+        transform: translateY(-4rem) scale(.9)
+    }
+}
+
+@keyframes showSmallredpack {
+    0% {
+        -webkit-transform: translateY(0) scale(.21);
+        transform: translateY(0) scale(.21)
+    }
+
+    to {
+        -webkit-transform: translateY(-4rem) scale(.9);
+        transform: translateY(-4rem) scale(.9)
+    }
+}
+
+@-webkit-keyframes showforev {
+    0%,to {
+        -webkit-transform: translateY(-4rem) scale(.9);
+        transform: translateY(-4rem) scale(.9)
+    }
+}
+
+@keyframes showforev {
+    0%,to {
+        -webkit-transform: translateY(-4rem) scale(.9);
+        transform: translateY(-4rem) scale(.9)
+    }
+}
+
+@-webkit-keyframes showBigrpshack {
+    0%,50%,to {
+        -webkit-transform: translateY(-4rem) rotateZ(0) scale(.9);
+        transform: translateY(-4rem) rotateZ(0) scale(.9)
+    }
+
+    25% {
+        -webkit-transform: translateY(-4rem) rotateZ(10deg) scale(.9);
+        transform: translateY(-4rem) rotateZ(10deg) scale(.9)
+    }
+
+    75% {
+        -webkit-transform: translateY(-4rem) rotateZ(-10deg) scale(.9);
+        transform: translateY(-4rem) rotateZ(-10deg) scale(.9)
+    }
+}
+
+@keyframes showBigrpshack {
+    0%,50%,to {
+        -webkit-transform: translateY(-4rem) rotateZ(0) scale(.9);
+        transform: translateY(-4rem) rotateZ(0) scale(.9)
+    }
+
+    25% {
+        -webkit-transform: translateY(-4rem) rotateZ(10deg) scale(.9);
+        transform: translateY(-4rem) rotateZ(10deg) scale(.9)
+    }
+
+    75% {
+        -webkit-transform: translateY(-4rem) rotateZ(-10deg) scale(.9);
+        transform: translateY(-4rem) rotateZ(-10deg) scale(.9)
+    }
+}
+
+@-webkit-keyframes showRpsmall {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes showRpsmall {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes showGold {
+    0% {
+        -webkit-transform: translate(0,0) scale(.8);
+        transform: translate(0,0) scale(.8)
+    }
+
+    to {
+        -webkit-transform: translate(0,-8rem) scale(.8);
+        transform: translate(0,-8rem) scale(.8)
+    }
+}
+
+@keyframes showGold {
+    0% {
+        -webkit-transform: translate(0,0) scale(.8);
+        transform: translate(0,0) scale(.8)
+    }
+
+    to {
+        -webkit-transform: translate(0,-8rem) scale(.8);
+        transform: translate(0,-8rem) scale(.8)
+    }
+}
+
+@-webkit-keyframes showWin {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes showWin {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes showpaper1 {
+    0%,to {
+        -webkit-transform: translateY(3rem);
+        transform: translateY(3rem)
+    }
+}
+
+@keyframes showpaper1 {
+    0%,to {
+        -webkit-transform: translateY(3rem);
+        transform: translateY(3rem)
+    }
+}
+
+@-webkit-keyframes showpaper2 {
+    0% {
+        -webkit-transform: translateY(3rem);
+        transform: translateY(3rem)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes showpaper2 {
+    0% {
+        -webkit-transform: translateY(3rem);
+        transform: translateY(3rem)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes showTopCap {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes showTopCap {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes showTopOpen {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-position-y: 0
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-position-y: 100%
+    }
+}
+
+@keyframes showTopOpen {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-position-y: 0
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        background-position-y: 100%
+    }
+}
+
+@-webkit-keyframes showstar {
+    0%,to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}
+
+@keyframes showstar {
+    0%,to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes showOrder {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0)
+    }
+
+    to {
+        -webkit-transform: scale(1.2) translateY(.3rem);
+        transform: scale(1.2) translateY(.3rem)
+    }
+}
+
+@keyframes showOrder {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0)
+    }
+
+    to {
+        -webkit-transform: scale(1.2) translateY(.3rem);
+        transform: scale(1.2) translateY(.3rem)
+    }
+}
+
+@-webkit-keyframes showOrder1 {
+    0%,to {
+        -webkit-transform: scale(1.2) translateY(.3rem);
+        transform: scale(1.2) translateY(.3rem)
+    }
+}
+
+@keyframes showOrder1 {
+    0%,to {
+        -webkit-transform: scale(1.2) translateY(.3rem);
+        transform: scale(1.2) translateY(.3rem)
+    }
+}
+
+@-webkit-keyframes showActbtn {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+}
+
+@keyframes showActbtn {
+    0%,to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+}
+
+@-webkit-keyframes popCheer {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes popCheer {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes showHide {
+    0%,to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}
+
+@keyframes showHide {
+    0%,to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes middleUp {
+    0% {
+        top: 2.4rem
+    }
+
+    to {
+        top: 0
+    }
+}
+
+@keyframes middleUp {
+    0% {
+        top: 2.4rem
+    }
+
+    to {
+        top: 0
+    }
+}
+
+@-webkit-keyframes btnBigSmall {
+    50% {
+        -webkit-transform: translate(-50%) scale(1.1);
+        transform: translate(-50%) scale(1.1)
+    }
+}
+
+@keyframes btnBigSmall {
+    50% {
+        -webkit-transform: translate(-50%) scale(1.1);
+        transform: translate(-50%) scale(1.1)
+    }
+}
+
+@-webkit-keyframes btnSmallBig {
+    50% {
+        -webkit-transform: translate(-50%) scale(.9);
+        transform: translate(-50%) scale(.9)
+    }
+}
+
+@keyframes btnSmallBig {
+    50% {
+        -webkit-transform: translate(-50%) scale(.9);
+        transform: translate(-50%) scale(.9)
+    }
+}
+
+@-webkit-keyframes popHead {
+    0% {
+        top: -100%;
+        opacity: 1
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes popHead {
+    0% {
+        top: -100%;
+        opacity: 1
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes closeShow {
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes closeShow {
+    to {
+        opacity: 1
+    }
+}
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1;
+    font-family: PingFangSC-Light,'helvetica neue','hiragino sans gb',tahoma,'microsoft yahei ui','microsoft yahei',simsun,sans-serif
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+button {
+    border: 0
+}
+
+* {
+    word-break: break-all
+}
+
+a[title=站长统计] {
+    display: none
+}
+
+.imgCommon {
+    background-image: url(//static.baichuanhd.com/game/common/img/common-424a71137c.png);
+    background-size: 11.21rem 15.56rem
+}
+
+.ios-notice {
+    width: 100%;
+    color: #fefefe;
+    font-size: .23rem;
+    line-height: 1.5;
+    text-align: center;
+    opacity: .6
+}
+
+.commonAniOpacity {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    opacity: 0
+}
+
+.commonAniOpacity.show {
+    opacity: 1
+}
+
+.common-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    z-index: 99;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateZ(7rem);
+    transform: translateZ(7rem)
+}
+
+.common-error-pop-mask .common-error-pop {
+    width: 5.74rem;
+    border-radius: .23rem;
+    background: #fff;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .19rem .19rem .51rem
+}
+
+.common-error-pop-mask .common-error-pop .close-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: -.28rem;
+    right: -.28rem;
+    width: .56rem;
+    height: .56rem;
+    background: url(//static.baichuanhd.com/game/common/img/close-702bb29415.png) no-repeat;
+    background-size: contain
+}
+
+.common-error-pop-mask .common-error-pop .first img {
+    width: .66rem
+}
+
+.common-error-pop-mask .common-error-pop .second {
+    margin-top: .23rem;
+    font-size: .37rem;
+    line-height: .56rem;
+    color: #666
+}
+
+.common-again-wrapper,.common-error-pop-mask .common-error-pop,.common-thanks-wrapper,.recommendWin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+.common-again-wrapper,.common-thanks-wrapper {
+    width: 81.25%;
+    border-radius: .21rem;
+    background: #fff;
+    text-align: center
+}
+
+.common-again-wrapper:before,.common-thanks-wrapper:before {
+    position: absolute;
+    content: '';
+    width: 2.11rem;
+    height: 2.11rem;
+    top: -1.05rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(//static.baichuanhd.com/game/common/img/sad-42f0ac31c4.png) 0 0 no-repeat;
+    background-size: cover
+}
+
+.common-again-wrapper:before {
+    background-image: url(//static.baichuanhd.com/game/common/img/happy-4c1ccea466.png)
+}
+
+.common-again-wrapper .close-icon,.common-thanks-wrapper .close-icon {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    top: -1.52rem;
+    right: 0;
+    width: .51rem;
+    height: .51rem;
+    line-height: .51rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #7b7b7a;
+    color: #7b7b7a;
+    font-size: .47rem
+}
+
+.common-thanks-wrapper .main-title {
+    font-size: .56rem;
+    color: #666;
+    margin: 1.4rem 0 .68rem
+}
+
+.common-again-wrapper .confirm-btn,.common-thanks-wrapper .confirm-btn {
+    width: 88%;
+    height: .94rem;
+    line-height: .94rem;
+    font-size: .37rem;
+    border-radius: .68rem;
+    margin: 0 auto .35rem;
+    background: #fd3458;
+    color: #fff;
+    cursor: pointer
+}
+
+.common-again-wrapper .intro {
+    font-size: .33rem;
+    color: #2d2d2d;
+    margin-top: 1.4rem
+}
+
+.common-again-wrapper .main-title {
+    font-size: .56rem;
+    line-height: .94rem;
+    color: #fd3458
+}
+
+.common-again-wrapper .description {
+    font-size: .28rem;
+    color: #666;
+    margin-bottom: .68rem
+}
+
+.recommendWin {
+    width: 6.79rem;
+    max-height: 9.37rem
+}
+
+.recommendWin .box {
+    width: 6.09rem;
+    margin: 0 auto
+}
+
+.recommendWin .box .top {
+    width: 100%;
+    height: 2.34rem;
+    background: url(//static.baichuanhd.com/game/common/img/recommend3-65d62b4640.png) 0 0 no-repeat;
+    background-size: cover
+}
+
+.recommendWin .box .admain {
+    background-color: #ffebd1;
+    border-radius: 0 0 .14rem .14rem
+}
+
+.recommendWin .box .admain .adbox {
+    width: 6.79rem;
+    margin-left: -.35rem;
+    position: relative;
+    padding-bottom: .47rem
+}
+
+.recommendWin .box .admain .adbox .ad {
+    width: 6.79rem;
+    height: 2.5rem;
+    background: url(//static.baichuanhd.com/game/common/img/recommend2-087a9208bb.png) 0 0 no-repeat;
+    background-size: cover;
+    overflow: hidden
+}
+
+.recommendWin .box .admain .adbox .ad .img,.recommendWin .box .admain .adbox .ad img {
+    width: 6.56rem;
+    height: 2.03rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: .15rem;
+    border-radius: .14rem
+}
+
+.recommendWin .box .admain .adbox .ad .img {
+    background: url(//static.baichuanhd.com/game/common/img/lotteryend4-166bef33f7.png) 0 0 no-repeat;
+    background-size: contain
+}
+
+.recommendWin .box .admain .adbox .btn {
+    text-indent: -999rem;
+    overflow: hidden;
+    position: absolute;
+    width: 3.05rem;
+    height: .94rem;
+    background: url(//static.baichuanhd.com/game/common/img/recommend1-960ce9d686.png) 0 0 no-repeat;
+    background-size: cover;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    top: 1.87rem
+}
+
+.recommendWin .box .admain .adbox:last-child {
+    padding: 0
+}
+
+.recommendWin .box .admain .adbox.checklottery .btn {
+    background: url(//static.baichuanhd.com/game/common/img/recommend5-ae359f01a9.png) 0 0 no-repeat;
+    background-size: cover
+}
+
+.recommendWin .box .admain .adbox .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 0
+}
+
+.recommendWin .close {
+    position: absolute;
+    z-index: 2;
+    top: -.7rem;
+    right: .23rem;
+    width: .51rem;
+    height: .51rem;
+    background: url(//static.baichuanhd.com/game/common/img/closenew-7d943e55d7.png) 0 0 no-repeat;
+    background-size: contain;
+    cursor: pointer
+}
+
+.common-popup-lottery .cheer,.common-popup-lottery .close,.common-popup-lottery .imgWrap:before,.common-popup-lottery .redAfter,.common-popup-lottery .redFront,.common-popup-lottery .redFront .getBtn,.commonPopImg {
+    background-image: url(//static.baichuanhd.com/game/common/img/commonPop-560cb7c625.png);
+    background-size: 7.5rem 12.8rem
+}
+
+.common-popup-lottery {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    width: 7.5rem;
+    height: 9.5rem;
+    top: 1rem;
+    -webkit-animation: showModalNew .5s ease-in-out;
+    animation: showModalNew .5s ease-in-out
+}
+
+.common-popup-lottery .close {
+    background-position: -6.42rem -3rem;
+    position: absolute;
+    z-index: 99;
+    top: .97rem;
+    left: 6.42rem;
+    width: .45rem;
+    height: .45rem;
+    opacity: 0;
+    -webkit-animation: showClose 1s .5s linear forwards;
+    animation: showClose 1s .5s linear forwards
+}
+
+.common-popup-lottery .cheer {
+    background-position: 0 0;
+    position: absolute;
+    width: 4.6rem;
+    height: 2.74rem;
+    left: 1.43rem;
+    top: .46rem;
+    -webkit-animation: showRedpacks .3s .8s linear forwards;
+    animation: showRedpacks .3s .8s linear forwards;
+    z-index: 8;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+
+.common-popup-lottery .imgWrap {
+    width: 5.6rem;
+    height: 2.86rem;
+    position: absolute;
+    left: .99rem;
+    top: 4.56rem;
+    z-index: 10;
+    -webkit-animation: showCoupon .3s .5s linear forwards;
+    animation: showCoupon .3s .5s linear forwards
+}
+
+.common-popup-lottery .imgWrap .imgDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .1rem .1rem 0;
+    border-radius: .1rem;
+    background-color: #fff
+}
+
+.common-popup-lottery .imgWrap .imgDiv .img {
+    width: 5.4rem;
+    height: 2.6rem;
+    border-radius: .1rem
+}
+
+.common-popup-lottery .imgWrap:before {
+    content: '';
+    width: 1.66rem;
+    height: 2.67rem;
+    top: -.85rem;
+    background-position: -5.84rem 0;
+    z-index: 9
+}
+
+.common-popup-lottery .redAfter {
+    background-position: 0 -3.1rem;
+    z-index: 9;
+    width: 5.81rem;
+    height: 1.81rem;
+    position: absolute;
+    left: .86rem;
+    top: 3.66rem
+}
+
+.common-popup-lottery .redFront {
+    background-position: 0 -7.05rem;
+    z-index: 11;
+    width: 5.97rem;
+    height: 3.97rem;
+    position: absolute;
+    left: .78rem;
+    top: 5.08rem
+}
+
+.common-popup-lottery .redFront .giftName {
+    font-size: .26rem;
+    color: #fff;
+    width: 3.74rem;
+    height: .26rem;
+    overflow: hidden;
+    position: absolute;
+    left: 1.11rem;
+    top: 3.3rem;
+    text-align: center
+}
+
+.common-popup-lottery .redFront .getBtn {
+    position: absolute;
+    width: 1.91rem;
+    height: 1.94rem;
+    left: 2.02rem;
+    top: .38rem;
+    background-position: -1.95rem -5.11rem;
+    -webkit-animation: btnClick .6s 1.2s steps(1) infinite;
+    animation: btnClick .6s 1.2s steps(1) infinite
+}
+
+.common-popup-lottery .light {
+    z-index: 8;
+    width: 7.5rem;
+    height: 7.5rem;
+    position: absolute;
+    left: 50%;
+    top: 1rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/light-331dbbd097.png);
+    background-size: contain;
+    opacity: 0;
+    -webkit-animation: lightRound 18s linear 1.2s infinite;
+    animation: lightRound 18s linear 1.2s infinite
+}
+
+.common-popup-lottery .light2 {
+    z-index: 7;
+    width: 7.5rem;
+    height: 7.5rem;
+    top: -1.5rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/lightBg2-9bd602e334.png);
+    background-size: 7.5rem 11.11rem
+}
+
+.adQuanWrap {
+    background: url(//static.baichuanhd.com/game/common/img/quanbg-67b4e9c349.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%
+}
+
+.adQuanWrap .imgbox {
+    float: left;
+    margin: .4rem 0 0 .28rem
+}
+
+.adQuanWrap .imgbox img {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem
+}
+
+.adQuanWrap .paybox,.common-rule-wrapper {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.adQuanWrap .paybox {
+    float: left;
+    height: 1.8rem;
+    text-align: center;
+    margin-left: .42rem;
+    margin-top: .12rem;
+    width: 2.4rem;
+    padding: .3rem 0 0
+}
+
+.adQuanWrap .paybox .top {
+    text-align: center;
+    color: #fff;
+    line-height: 1
+}
+
+.adQuanWrap .paybox .top .ico {
+    font-size: .3rem;
+    line-height: .3rem;
+    position: relative;
+    top: -.3rem
+}
+
+.adQuanWrap .paybox .top .quanpay1 {
+    font-size: .8rem
+}
+
+.adQuanWrap .paybox .btm {
+    font-size: .2rem;
+    color: #fff
+}
+
+.adQuanWrap .paybox .btm .yj {
+    text-decoration: line-through;
+    color: #f59b9e
+}
+
+.common-rule-wrapper {
+    padding: .4rem;
+    width: 6.1rem;
+    max-height: 7.1rem;
+    color: #fff;
+    font-size: .18rem;
+    line-height: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: .1rem
+}
+
+.common-rule-wrapper .close-icon {
+    width: .33rem;
+    height: .34rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/closeBc-97e41cf6fb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: .2rem;
+    right: .2rem
+}
+
+.common-rule-wrapper .ruleTit {
+    font-size: .26rem;
+    text-align: center
+}
+
+.common-rule-wrapper .ruleContent {
+    margin-top: .1rem;
+    max-height: 5.8rem;
+    overflow: auto
+}
+
+.appEntry,.commonHand {
+    background-repeat: no-repeat
+}
+
+.appEntry {
+    bottom: .1rem;
+    right: .1rem;
+    background-size: contain;
+    position: fixed;
+    width: 1.54rem;
+    height: 1.55rem;
+    z-index: 999;
+    background-image: url(//static.baichuanhd.com/game/common/img/redget3-ab332dd8c5.gif)
+}
+
+.appEntry.ios {
+    background-image: url(//static.baichuanhd.com/game/common/img/iosred1-18c6040e5a.gif)
+}
+
+.commonHand {
+    position: absolute;
+    background-image: url(//static.baichuanhd.com/game/common/img/hand-a82ecd29cd.png);
+    background-size: 2.94rem 1.51rem;
+    width: 1.44rem;
+    height: 1.52rem;
+    z-index: 99;
+    display: none;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(1.2) translateZ(2rem);
+    transform: scale(1.2) translateZ(2rem)
+}
+
+.commonHand.activity {
+    display: block;
+    -webkit-animation: commonHandClick .5s steps(1) infinite;
+    animation: commonHandClick .5s steps(1) infinite
+}
+
+.newinfo2 {
+    z-index: 50;
+    font-size: .2rem;
+    color: #ffde01;
+    width: 4.03rem;
+    height: .53rem;
+    position: absolute;
+    top: .1rem;
+    left: 1.5rem
+}
+
+.newinfo2 .txt {
+    position: absolute;
+    left: .76rem;
+    top: -.04rem;
+    opacity: 0
+}
+
+.loadMask,.newinfo2 .img {
+    width: 100%;
+    height: 100%
+}
+
+.newinfo2 .default {
+    background-image: url(//static.baichuanhd.com/game/common/img/newinfo-e38f2257f0.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.newinfo2.activity .txt {
+    -webkit-transition: all .1s;
+    transition: all .1s
+}
+
+.newinfo2.show .txt {
+    top: .16rem;
+    opacity: 1
+}
+
+.newinfo2.remove .txt {
+    top: .36rem;
+    opacity: 0
+}
+
+.loadMask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    opacity: 1;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    z-index: 999
+}
+
+.loadMask.hide {
+    opacity: 0
+}
+
+#popup,.popup-shadow {
+    top: 0;
+    width: 7.5rem;
+    height: 100%
+}
+
+.hide {
+    display: none
+}
+
+#popup {
+    position: fixed;
+    z-index: 200;
+    -webkit-transform: translateZ(10rem);
+    transform: translateZ(10rem)
+}
+
+#popup * {
+    -ms-touch-action: none;
+    touch-action: none
+}
+
+.popup-shadow {
+    position: absolute;
+    opacity: .7;
+    background: #000;
+    z-index: 10
+}
+
+.plugin-act-popup .close,.plugin-act-popup .nonepack,.plugin-act-popup .plugin-popup-mc .popup-mc-cont .gold,.plugin-act-popup .plugin-popup-mc .popup-mc-cont .redpack,.plugin-act-popup .plugin-popup-mc .popup-mc-cont .smallbom,.plugin-act-popup .plugin-popup-mc .popup-mc-cont .star,.plugin-act-popup .winred .content,.plugin-act-popup .winred .paper_wrap .paper,.plugin-act-popup .winred .rpbom,.plugin-act-popup .winred .rpbom .plugin-coupon-btn,.plugin-act-popup .winred .rptop,.plugin-act-popup .winred .star {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute
+}
+
+.plugin-act-popup .close {
+    width: .54rem;
+    height: .54rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/X-dd461b6db9.png);
+    bottom: .6rem;
+    left: 3.48rem;
+    z-index: 50;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: showcloseHide 3s 1;
+    animation: showcloseHide 3s 1
+}
+
+.plugin-act-popup .plugin-popup-mc {
+    z-index: 11
+}
+
+.plugin-act-popup .plugin-popup-mc .popup-mc-cont {
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.plugin-act-popup .plugin-popup-mc .popup-mc-cont .star {
+    width: 5.17rem;
+    height: 2.63rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/star-e5c7145b59.png);
+    z-index: 12;
+    top: .2rem;
+    left: 1rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+    -webkit-animation: showRpsmall 1.2s 1,showStarOut .4s 1 .8s;
+    animation: showRpsmall 1.2s 1,showStarOut .4s 1 .8s
+}
+
+.plugin-act-popup .plugin-popup-mc .popup-mc-cont .smallbom {
+    width: 7.5rem;
+    height: 9.81rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/bomrp-094b5e4d74.png);
+    z-index: 10;
+    bottom: .6rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: showRpsmall 1.2s 1;
+    animation: showRpsmall 1.2s 1
+}
+
+.plugin-act-popup .plugin-popup-mc .popup-mc-cont .gold {
+    width: 6.82rem;
+    height: 11.04rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/hold-ba6c232b5b.png);
+    left: .34rem;
+    bottom: 1rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    z-index: 11;
+    -webkit-animation: showGold steps(12) 1.2s 1;
+    animation: showGold steps(12) 1.2s 1
+}
+
+.plugin-act-popup .plugin-popup-mc .popup-mc-cont .redpack {
+    width: 5.97rem;
+    height: 7.66rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/bigrp-23d3cb00dc.png);
+    bottom: -2.4rem;
+    left: .78rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    z-index: 13;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: showSmallredpack 1s 1 1.2s,showBigrpshack linear .2s 4 2.2s,showforev 2s infinite 3s;
+    animation: showSmallredpack 1s 1 1.2s,showBigrpshack linear .2s 4 2.2s,showforev 2s infinite 3s
+}
+
+.plugin-act-popup .nonepack {
+    z-index: 11;
+    width: 6.4rem;
+    height: 6.43rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/noaward1-0cd3dc0395.png);
+    top: 2.3rem;
+    left: .55rem
+}
+
+.plugin-act-popup .winred {
+    z-index: 11;
+    width: 7.5rem;
+    height: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    position: absolute
+}
+
+.plugin-act-popup .winred.show {
+    -webkit-animation: showWin 1s infinite;
+    animation: showWin 1s infinite
+}
+
+.plugin-act-popup .winred .rpcaptop {
+    width: 6.63rem;
+    height: 3.78rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/rptop-d17a3e4459.png);
+    position: absolute;
+    z-index: 14;
+    top: -2rem;
+    left: -.8rem
+}
+
+.plugin-act-popup .winred .paper_wrap {
+    width: 7.5rem;
+    height: 8rem;
+    position: absolute;
+    top: .36rem;
+    left: -.73rem;
+    overflow: hidden
+}
+
+.plugin-act-popup .winred .paper_wrap .paper {
+    width: 5.86rem;
+    height: 5.49rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/paper-80505bb44b.png);
+    left: .82rem;
+    top: .8rem;
+    z-index: 10;
+    -webkit-animation: showpaper1 3.6s 1,showpaper2 linear .4s 1 3.6s;
+    animation: showpaper1 3.6s 1,showpaper2 linear .4s 1 3.6s
+}
+
+.plugin-act-popup .winred .rptop {
+    width: 7.27rem;
+    height: 5.71rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/rp-4c39d89ed8.png);
+    top: .72rem;
+    left: -.62rem;
+    z-index: 13;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: showTopCap 3s 1,showTopOpen steps(6) 1s 1 2.6s;
+    animation: showTopCap 3s 1,showTopOpen steps(6) 1s 1 2.6s
+}
+
+.plugin-act-popup .winred .rpbom {
+    width: 6.02rem;
+    height: 2.61rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/rpbom-40371ce21a.png);
+    bottom: 0;
+    z-index: 14
+}
+
+.plugin-act-popup .winred .rpbom .plugin-coupon-btn {
+    width: 3.1rem;
+    height: 3.1rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/rpbtn-94064fd119.png);
+    z-index: 11;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    top: -.8rem;
+    left: 1.5rem;
+    -webkit-animation: showActbtn .5s infinite 4.6s;
+    animation: showActbtn .5s infinite 4.6s
+}
+
+.plugin-act-popup .winred .star {
+    width: 5.17rem;
+    height: 2.63rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/star-e5c7145b59.png);
+    z-index: 115;
+    top: -1.3031rem;
+    left: 1.125rem;
+    opacity: 1;
+    -webkit-animation: showstar 1s infinite 3.6s;
+    animation: showstar 1s infinite 3.6s
+}
+
+.plugin-act-popup .winred .content {
+    width: 6.04rem;
+    height: 8.5rem;
+    background-image: url(//static.baichuanhd.com/game/common/img/redPack/bgrp-ef169f5566.png);
+    z-index: 10;
+    left: .73rem;
+    bottom: 1.5rem;
+    border-radius: 20px;
+    -webkit-transform: scale(.9);
+    transform: scale(.9)
+}
+
+.plugin-act-popup .winred .content .order {
+    display: block;
+    width: 5.5rem;
+    height: 2.6rem;
+    position: absolute;
+    left: .16rem;
+    top: .1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-animation: showOrder .8s 1 4s,showOrder1 2s infinite 4.8s;
+    animation: showOrder .8s 1 4s,showOrder1 2s infinite 4.8s
+}
+
+.plugin-act-popup .winred .content img {
+    width: 100%
+}
+
+.plugin-act-popup .winred .content .decs {
+    position: absolute;
+    top: 3.56rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    max-width: 90%;
+    text-align: center;
+    z-index: 101;
+    background: #ffd2c0;
+    color: #6f1305;
+    font-size: .26rem;
+    padding: .15rem .25rem;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.common-popup1 {
+    width: 7.5rem;
+    margin: 0 auto;
+    height: 12.06rem;
+    -webkit-animation: showPopup .3s ease-in-out;
+    animation: showPopup .3s ease-in-out
+}
+
+.common-popup1 .lightBg {
+    top: 1rem;
+    width: 100%;
+    height: 7.5rem;
+    background: url(//static.baichuanhd.com/game/common/img/light-331dbbd097.png) no-repeat 0 0/contain;
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: lightRound 18s 1.2s linear infinite;
+    animation: lightRound 18s 1.2s linear infinite
+}
+
+.common-popup1 .popBg,.common-popup1 .popFront1,.common-popup1 .popFront2,.common-popup1 .popMiddle,.common-popup1 .popMiddle .imgWrap .img,.common-popup1 .popMiddle .popMiddleImg {
+    width: 100%;
+    height: 100%
+}
+
+.common-popup1 .popCheer {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-animation: popCheer .3s .8s linear forwards;
+    animation: popCheer .3s .8s linear forwards
+}
+
+.common-popup1 .popMiddle {
+    top: 2.4rem;
+    -webkit-animation: middleUp .3s .4s linear forwards;
+    animation: middleUp .3s .4s linear forwards
+}
+
+.common-popup1 .popMiddle .imgWrap {
+    top: 3.64rem;
+    width: 5.86rem;
+    height: 2.75rem
+}
+
+.common-popup1 .popMiddle .adName {
+    top: 6.6rem;
+    width: 4.2rem;
+    height: .55rem;
+    font-size: .3rem;
+    color: #97443e;
+    overflow: hidden;
+    text-align: center;
+    border-radius: .1rem;
+    line-height: .55rem
+}
+
+.common-popup1 .popFront2 {
+    -webkit-animation: showHide 1s 1s steps(1) infinite;
+    animation: showHide 1s 1s steps(1) infinite
+}
+
+.common-popup1 .getBtn {
+    top: 7.43rem;
+    width: 3.23rem;
+    height: 3.23rem
+}
+
+.common-popup1 .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+.common-popup2 .popMiddle .imgWrap {
+    top: 3.8rem;
+    width: 5.4rem;
+    height: 2.7rem
+}
+
+.common-popup2 .adName {
+    top: 7.63rem;
+    width: 3.6rem;
+    height: .28rem;
+    font-size: .28rem;
+    color: #fef083;
+    overflow: hidden;
+    text-align: center
+}
+
+.common-popup2 .getBtn {
+    top: 8rem;
+    width: 3rem;
+    height: 3rem
+}
+
+.abCenter,.common-popup-lottery .imgWrap:before,.common-popup-lottery .light2,.common-popup1,.common-popup1 .getBtn,.common-popup1 .lightBg,.common-popup1 .popBg,.common-popup1 .popCheer,.common-popup1 .popFront1,.common-popup1 .popFront2,.common-popup1 .popMiddle,.common-popup1 .popMiddle .adName,.common-popup1 .popMiddle .imgWrap,.common-popup1 .popMiddle .popMiddleImg,.common-popup2 .adName,.common-popup2 .getBtn,.common-popup2 .popMiddle .imgWrap,.common-popup3 .adName,.common-popup3 .getBtn,.common-popup3 .imgWrap {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%)
+}
+
+.btnBigSmall {
+    -webkit-animation: btnBigSmall .5s steps(1) infinite;
+    animation: btnBigSmall .5s steps(1) infinite
+}
+
+.common-popup3 .imgWrap {
+    width: 5.4rem;
+    height: 2.6rem;
+    top: 3.85rem;
+    overflow: hidden;
+    border-radius: .1rem
+}
+
+.common-popup3 .imgWrap .img {
+    width: 100%;
+    height: 100%
+}
+
+.common-popup3 .adName {
+    width: 4.4rem;
+    height: .4rem;
+    line-height: .4rem;
+    top: 6.81rem;
+    overflow: hidden;
+    font-size: .36rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1
+}
+
+.common-popup3 .popHead {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -100%;
+    -webkit-animation: popHead .3s .4s linear forwards;
+    animation: popHead .3s .4s linear forwards;
+    pointer-events: none;
+    opacity: 0
+}
+
+.common-popup3 .getBtn {
+    width: 2.4rem;
+    height: 2.4rem;
+    top: 7.36rem;
+    -webkit-animation: btnSmallBig .5s 1.2s steps(1) infinite;
+    animation: btnSmallBig .5s 1.2s steps(1) infinite
+}
+
+.common-popup3 .close {
+    position: absolute;
+    width: .5rem;
+    height: .5rem;
+    left: 6.5rem;
+    top: .5rem;
+    opacity: 0;
+    -webkit-animation: closeShow .3s 1.2s linear forwards;
+    animation: closeShow .3s 1.2s linear forwards
+}

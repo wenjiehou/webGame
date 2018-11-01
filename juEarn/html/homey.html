@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>最近阅读</title>
+    <link rel="stylesheet" href="../css/home.css" type="text/css" />
+    <!-- <script type="text/javascript" src="../js/common/require.js"></script>
+    <script type="text/javascript" src="../js/home/home.js"></script>  -->
+    <script data-main="../js/home/home.js" src="../js/common/require.js"></script>
+
+
+</head>
+
+<body ontouchstart="">
+        <div id="content" ></div>
+    <div id="app">
+        {{ message }}
+    </div>
+    <div id="app-2">
+        <span v-bind:title="message">
+            鼠标悬停几秒钟查看此处动态绑定的提示信息！
+        </span>
+    </div>
+    <div id="app-3">
+        <p v-if="seen">现在你看到我了</p>
+    </div>
+    <div id="app-4">
+        <div v-for="todo in todos">
+            <img v-bind:src="todo.img"></img>
+            {{ todo.text }}
+        </div>
+    </div>
+
+    <div id="app-5">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">逆转消息</button>
+    </div>
+
+    <div id="app-6">
+        <p>{{ message }}</p>
+        <input v-model="message">
+    </div>
+
+    <div id="app-7">
+        <todo-item v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id">
+        </todo-item>
+    </div>
+    <div id="example-5">
+        <select v-model="selected">
+            <option disabled value="">请选择</option>
+            <option>
+                A
+            </option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+        <span>Selected: {{ selected }}</span>
+    </div>
+
+    <div id="components-demo">
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+    </div>
+    <!-- <div class="topControl" onclick="onclickItem">
+        <img class="activity" src="../img/to.png" style="width: 32px;height: 70px;transform: scale(-1,1);margin-left: 40px;" />
+        <font class="font1">最近阅读</font>
+        <img class="activity" src="../img/to.png" style="width: 32px;height: 70px;margin-right: 40px;" />
+    </div>
+    <div id="content" class="content">
+    </div> -->
+
+
+</body>
+
+</html>
